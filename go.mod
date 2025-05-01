@@ -4,7 +4,11 @@ go 1.23.0
 
 toolchain go1.23.4
 
-require github.com/nats-io/nats.go v1.41.2
+require (
+	github.com/google/uuid v1.6.0
+	github.com/nats-io/nats.go v1.41.2
+	github.com/thejerf/suture/v4 v4.0.6
+)
 
 require (
 	github.com/klauspost/compress v1.18.0 // indirect
